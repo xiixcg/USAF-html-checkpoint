@@ -1,0 +1,13 @@
+.content h1 {
+  text-align: center;
+}
+
+.content .login {
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.form-group {
+  padding-bottom: 40px;
+}
