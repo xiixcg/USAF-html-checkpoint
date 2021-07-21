@@ -4,13 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "start": "npx live-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "less": "^4.1.1",
-    "less-watch-compiler": "^1.16.2"
   }
 }

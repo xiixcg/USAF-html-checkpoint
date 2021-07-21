@@ -1,25 +1,10 @@
-var loggedIn = false;
-if (!loggedIn) {
-  $(function () {
-    $("#login-placeholder").load("login.html");
+var loggedIn = false
+if (!loggedIn){
+  $(function(){
+    $("body").load("login.html");
   });
-
-  let loginBtn = document.getElementById(".btn-primary");
-
-  console.log('loginBtn' + loginBtn);
-
-  loginBtn.hidden = true;
+} else {
+  $(function(){
+    $("body").load("home.html");
+  });
 }
-document.getElementById("home-button").addEventListener("click", function () {
-  $(function () {
-    $("#home-placeholder").load("home.html");
-  });
-});
-
-document.getElementById(".login-button").addEventListener("click", function () {
-  console.log("clicked")
-  $(function () {
-    $("#login-placeholder").load("login.html");
-  });
-});
-
